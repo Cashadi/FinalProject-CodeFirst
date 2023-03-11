@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  display: inline;
+}
+.container {
+  height: 550px;
+  padding: 40px;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+  background-image: url(img/bg-banner.jpg);
+}
+nav {
+  float: right;
+}
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(79, 77, 77);
+  margin-right: 15px;
+}
+nav a:hover {
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+}
+.logo {
+  color: rgb(79, 77, 77);
+  font-weight: bold;
+  font-size: 25px;
+  float: left;
+}
+h1 {
+  position: absolute;
+  width: 450px;
+  font-size: 50px;
+  color: rgb(79, 77, 77);
+  font-weight: bold;
+  top: calc(35% - 15px);
+  transform: translateY(calc(35% - 15px));
+  left: 80px;
+}
+/* main */
+main {
+  width: 100%;
+  padding: 20px;
+}
+#tentang {
+  width: 800px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  box-shadow: 11px 8px 15px 12px rgb(0 0 0 / 10%);
+}
+img {
+  width: 400px;
+  height: 250px;
+}
+.text {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 400px;
+  height: auto;
+  padding: 10px 25px;
+  margin: 5px;
+}
+.text span {
+  font-weight: bold;
+  font-size: 18px;
+}
+.text h3 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.text p {
+  margin-top: 10px;
+}
+/* rekomendasi menu */
+.content-rekomendasi {
+  width: 1100px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.title-rekomendasi {
+  width: 100%;
+  height: 50px;
+}
+.title-rekomendasi h3 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.title-rekomendasi p {
+  font-size: 18px;
+}
+.left {
+  float: left;
+  margin: 10px 5px;
+  font-size: 20px;
+}
+.right {
+  float: right;
+  margin: 10px 5px;
+  font-size: 20px;
+}
+.menu-rekomendasi {
+  width: calc(33.33% - 20px);
+  margin: 30px 10px;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.menu-rekomendasi img {
+  width: 100%;
+  height: 250px;
+}
+/* menu */
+.content-menu {
+  width: 1100px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.title-menu {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 260px;
+}
+.title-menu h3 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.title-menu p {
+  font-size: 18px;
+}
+.menu-cafe {
+  width: calc(50% - 20px);
+  margin: 30px 10px;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.menu-cafe-item {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  object-fit: cover;
+}
+.menu-cafe-item h2 {
+  margin: auto;
+  text-align: center;
+  display: block;
+  height: 100%;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+  top: 50%;
+  transform: translateY(50%);
+  line-height: 0;
+}
+.text-left {
+  float: left;
+  margin: 10px 10px;
+  font-size: 20px;
+}
+.text-right {
+  float: right;
+  margin: 10px 10px;
+  font-size: 20px;
+}
+/* Contact */
+.contact-cfcafe {
+  margin-top: 1300px;
+  /* margin: 20px; */
+  position: relative;
+  /* border: 1px solid black; */
+}
+address {
+  padding: 20px;
+  width: 450px;
+  height: 300px;
+  position: absolute;
+  right: 90px;
+  top: 35px;
+  border: 5px solid white;
+  background-color: #42abd4;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
+}
+footer {
+  width: 100%;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #42abd4;
+
+  /* border: 2px solid black; */
+}
+footer .container-footer {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+}
+.container-footer img {
+  width: 100px;
+  height: 50px;
+}
+.navbar-footer {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.navbar-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+.container-footer p {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+/* logo WA */
+.whatsapps img {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 80px;
+  height: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  
+}
